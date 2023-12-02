@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SubikshaPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7ce5a5c6e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                 <img>
+        
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Work</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+            <div class="header-text">
+                <h1>Hello..,<span> Subiksha Shrini</span> here,</h1>
+                <h6>a proficient <span> problem-solver.</span></h6>
+                <h6>a frontend <span > developer.</span></h6>
+                <p>A highly motivated and hardworking individual, I am dedicated to proving myself in a professional environment
+                    by consistently upgrading my skills and I am committed to contributing my capabilities and efforts to the growth of the company.</p>
+            </div>
+        </div>
+
+    </div>
+
+<!-----about----->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about.png" alt="">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Although I come from a Non-IT background, my passion for technology is immense. 
+                        Through hard work and self-learning, I have mastered frontend skills and Core Java. 
+                        I am a proficient logical thinker, continuously upgrading my abilities by solving programming challenges 
+                        on websites like HackerRank and LeetCode.
+                        </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Internship & Certifications</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Designing</span><br>HTML 5,CSS 3,Bootstrap,JavaScript</li>
+                            <li><span>Database Management</span><br>SQL</li>
+                            <li><span>Programming Languages</span><br>Core JAVA,C</li>
+                            <li><span>Personal Skills-Volunteer,Orator.</span><br>Organised several programs in College Fests</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.E.Electronics and Communication Engineering(2025)</span><br>National Engineering College,Kovilpatti</li>
+                            <li><span>HSC-2020</span><br>Green Park Girls Matric.School,Namakkal.</li>
+                            <li><span>SSLC-2018</span><br>Ravilla.K.R.A Vidhyashram,Kovilpatt.</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Development Internship</span><br>Internshala Feb 2023- April 2023</li>
+                            <li><span>Symposium Achievements</span><br>I have won '8' Winning Certicates in 
+                                Paper Presentation held in various Colleges.</li>
+                            <li><span>Active Participant</span><br>I have participated in inter and intra College
+                            Competitions to showcase my talents.</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---servies---->
+
+    <div id="services">
+        <div class="container">
+
+            <h1 class="sub-title">What I Do?</h1>
+
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>
+                        Web Designing
+                    </h2>
+                    <p>
+                        I have designed a responsive tourism website using HTML, CSS, and Bootstrap. 
+                        Additionally, I have created mini websites in my free time using various frontend tools to showcase my versatility and creativity in web development.
+
+
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>
+                      Mini Projects
+                    </h2>
+                    <p>
+                        I've developed real-world applications, including a taxi booking system and a school management application, using JAVA. 
+                        These projects showcase my practical experience and proficiency in Java programming.
+
+
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>
+                       Content Writer
+                    </h2>
+                    <p>
+                       <i>"I weave the tapestry of words on freelance platforms, where the dance of my unique thoughts gracefully unfolds, 
+                        painting an artistry that whispers enchantment to the minds of readers."</i> 
+
+
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--portfolio-->
+
+    <div id="portfolio">
+
+     <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="pff1.jpg">
+                <div class="layer">
+                    <h3>Website Clones</h3>
+                    <p> I have replicated various websites,Instagram and Facebook.
+                         Additionally, I have designed multiple login forms and created custom websites to underscore my commitment to continuous learning  in web development.
+
+                       </p>
+                       <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pff2.jpg">
+                <div class="layer">
+                    <h3>Mini Projects</h3>
+                    <p>As an electronics engineer, I have acquired knowledge in software that breathes life into electronic systems. 
+                        I am continuously developing my skills to attain proficiency and you can explore some of my projects on my GitHub profile. 
+                       </p>
+                       <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pff3.jpg">
+                <div class="layer">
+                    <h3>Problem Solver</h3>
+                    <p>I am  very consistent in Program Solving.I have solved more than 50+ programs in LeetCode and obtained certifications from HackerRank.
+                       </p>
+                       <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+     </div>
+
+    </div>
+
+    <!--contact-->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>subikshashrini2308@gmail.com</p>
+                    <p><i class="fa-solid fa-paper-plane"></i>2111044@nec.edu.in</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/shriniii23/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https:linkedin.com/in/subiksha-shrini-k-0a22a8287" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/subikshashrini" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="mycv.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+ 
+                    </form>
+
+                    <span id="msg"></span>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © K.SUBIKSHA SHRINI <i class="fa-solid fa-heart"></i></p>
+            </p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+
+
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxnxaJWSDQblVpt-1HIhG5RVzQ4-zdwY_rTRizxXoPD_HV3vekRLETyuvwLXqU00Be6/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Messsage sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
