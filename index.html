@@ -21,7 +21,6 @@
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
                 </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             
             <div class="header-text">
@@ -225,27 +224,6 @@
             </p>
         </div>
     </div>
-
-    
-
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxnxaJWSDQblVpt-1HIhG5RVzQ4-zdwY_rTRizxXoPD_HV3vekRLETyuvwLXqU00Be6/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg= document.getElementById("msg")
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML="Messsage sent Successfully!"
-            setTimeout(function(){
-                msg.innerHTML=""
-            },3000)
-            form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
     
 </body>
 </html>
