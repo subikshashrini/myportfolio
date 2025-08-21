@@ -224,6 +224,50 @@
             </p>
         </div>
     </div>
+
+     <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+
+
+
+    </script>
+    
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxnxaJWSDQblVpt-1HIhG5RVzQ4-zdwY_rTRizxXoPD_HV3vekRLETyuvwLXqU00Be6/exec'
+@@ -283,4 +248,4 @@ <h1 class="sub-title">Contact Me</h1>
+  </script>
     
 </body>
 </html>
+
